@@ -18,6 +18,7 @@ public class CloudVendorController {
     public CloudVendorController(CloudVendorService cloudVendorService) {
         this.cloudVendorService = cloudVendorService;
         System.out.println("Hello World");
+        System.out.println("cloudVendorService");
     }
 
 
